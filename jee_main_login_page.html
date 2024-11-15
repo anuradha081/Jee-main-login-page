@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jee main login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>JEE(Main) 2024</h1>
+        <p>Ministry of Education, Government of India</p>
+    </div>
+
+    <div class="section">
+        <div class="left-panel">
+            <h2>Steps to apply online</h2>
+            <ul>
+                <li>Apply for Online Registration</li>
+                <li>Fill Online Application Form</li>
+                <li>Upload Scanned Photo & Signature</li>
+                <li>Pay Examination Fee</li>
+            </ul>
+            <select>
+                <option value="JEE(Main) 2024">JEE(Main) 2024</option>
+            </select>
+            <button>New Registration</button>
+        </div>
+
+        <div class="right-panel">
+            <h2>Only Registered Candidates Sign In</h2>
+            <form>
+                <div class="form-group">
+                    <label for="application-form">Application Form</label>
+                    <input type="text" id="application-form" placeholder="JEE(Main) 2024" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="application-no">Application No</label>
+                    <input type="text" id="application-no">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="form-group captcha">
+                    <label for="security-pin">Security Pin</label>
+                    <img src="https://via.placeholder.com/80x30?text=924U63" alt="Captcha">
+                    <input type="text" id="security-pin" placeholder="Enter Captcha">
+                </div>
+                <div class="form-group">
+                    <button type="submit">Sign In</button>
+                </div>
+                <div class="forgot-links">
+                    <a href="#">Forgot Password?</a>
+                    <a href="#">Forgot Application No?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
